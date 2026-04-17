@@ -2,15 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
-// IMPORTANT: Replace these values after setting up Firebase Console
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project.firebaseio.com",
-  projectId: "your-project",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "XXXXXXXXX",
-  appId: "X:XXXXXXX:web:XXXXXXX"
+  apiKey: "AIzaSyAaFSPKG6PedRVfca8BvP3YvV3-6E-80iI",
+  authDomain: "trinetr-pro-90ba3.firebaseapp.com",
+  projectId: "trinetr-pro-90ba3",
+  storageBucket: "trinetr-pro-90ba3.appspot.com",
+  messagingSenderId: "90389254119",
+  appId: "1:90389254119:web:f971812839994998463870",
+  databaseURL: "https://trinetr-pro-90ba3-default-rtdb.firebaseio.com"
 };
 
 const app = initializeApp(firebaseConfig);

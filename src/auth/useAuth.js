@@ -7,9 +7,8 @@ import { useState, useEffect } from 'react';
 
 // ✅ यहाँ users add/remove करें — बाकी कुछ नहीं छूना
 const USERS = [
-  { username: 'admin',   password: 'trishul@999', role: 'master' },  // आप (full access)
-  { username: 'user1',   password: 'user1@123',   role: 'viewer' },  // सिर्फ देख सकता है
-  { username: 'user2',   password: 'user2@123',   role: 'viewer' },  // सिर्फ देख सकता है
+  { username: 'Arunacharan007', password: '@Puran007', role: 'master' }, // आपका नया लॉगिन
+  { username: 'user1',          password: 'user1@123',   role: 'viewer' }, 
 ];
 
 // ✅ Role permissions — master के पास सब, viewer के पास सिर्फ देखना

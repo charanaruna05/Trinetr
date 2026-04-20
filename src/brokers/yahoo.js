@@ -37,10 +37,4 @@ export const YahooBroker = {
     },
 
     init() {}
-};export const YahooBroker = {
-    name: "Yahoo Finance",
-    async getQuote(symbol) { return await fetchYahooQuote(symbol); },
-    async login() { return { success: true }; },
-    async logout() { return true; },
-    init() {}
 };

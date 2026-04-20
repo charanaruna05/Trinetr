@@ -4,7 +4,8 @@
 // ============================================================
 
 // Vercel proxy use होगा — CORS problem नहीं होगी
-const PROXY = "/api/yahoo"
+const PROXY = "https://query1.finance.yahoo.com/v8/finance/chart"
+
 
 // ── INDEX SYMBOLS ────────────────────────────────────
 const INDEX_SYMBOLS = {
